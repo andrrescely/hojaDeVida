@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(9, 30, 32);
+}
+
+.name {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(9, 81, 148, 0.993);
+  transform: skewY(-2deg);
+}
+.name .content {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 25%;
+}
+.name .content .p-1 {
+  color: rgb(212, 202, 202);
+  font-family: "Baloo Tamma2", sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  transform: skewY(2deg);
+  margin-bottom: 0;
+}
+.name .content .p-2 {
+  color: rgb(212, 202, 202);
+  font-family: "Baloo Tamma2", sans-serif;
+  font-size: 20px;
+  transform: skewY(2deg);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.name .content .p-3 {
+  color: rgb(212, 202, 202);
+  font-family: "Baloo Tamma2", sans-serif;
+  font-size: 20px;
+  transform: skewY(2deg);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.name .img {
+  position: absolute;
+  top: 12%;
+  right: 5%;
+  width: 180px;
+  border-radius: 10%;
+  transform: skewY(2deg);
+  overflow: hidden;
+}
+.name .img img {
+  width: 150px;
+  height: 250px;
+}
+
+.info {
+  width: 90%;
+  height: auto;
+  background: rgb(5, 117, 145);
+  margin: 5% auto;
+  padding: 15px;
+  border-radius: 20px;
+}
+.info .tituloSeccion {
+  color: aliceblue;
+  font-family: "Baloo Tamma2", sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bolder;
+  border-bottom: 2px red dashed;
+}
+.info .tituloInfo {
+  color: aliceblue;
+  font-family: "Baloo Tamma2", sans-serif;
+  font-weight: bolder;
+  font-size: large;
+  display: inline;
+  margin-right: 20px;
+}
+.info .infoinfo {
+  color: rgb(16, 4, 70);
+  font-family: "Baloo Tamma2", sans-serif;
+  font-weight: normal;
+  font-size: large;
+  display: inline;
+}
+.info .infoCel {
+  color: aliceblue;
+  font-family: "Baloo Tamma2", sans-serif;
+  font-weight: bolder;
+  font-size: large;
+  display: inline;
+  margin-right: 20px;
+}
+.info .infoinfoCel {
+  color: rgb(16, 4, 70);
+  font-family: "Baloo Tamma2", sans-serif;
+  font-weight: normal;
+  font-size: large;
+  display: inline;
+}
+.info .infoDireccion {
+  color: aliceblue;
+  font-family: "Baloo Tamma2", sans-serif;
+  font-weight: bolder;
+  font-size: large;
+  display: inline;
+  margin-right: 20px;
+}
+.info .infoinfoDireccion {
+  color: rgb(16, 4, 70);
+  font-family: "Baloo Tamma2", sans-serif;
+  font-weight: normal;
+  font-size: large;
+  display: inline;
+}
+.info .infoBarrio {
+  color: aliceblue;
+  font-family: "Baloo Tamma2", sans-serif;
+  font-weight: bolder;
+  font-size: large;
+  display: inline;
+  margin-right: 20px;
+}
+.info .infoinfoBarrio {
+  color: rgb(16, 4, 70);
+  font-family: "Baloo Tamma2", sans-serif;
+  font-weight: normal;
+  font-size: large;
+  display: inline;
+}
+.info .infoFecha {
+  color: aliceblue;
+  font-family: "Baloo Tamma2", sans-serif;
+  font-weight: bolder;
+  font-size: large;
+  display: inline;
+  margin-right: 20px;
+}
+.info .infoinfoFecha {
+  color: rgb(16, 4, 70);
+  font-family: "Baloo Tamma2", sans-serif;
+  font-weight: normal;
+  font-size: large;
+  display: inline;
+}
+.info span {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding-left: 1%;
+  padding-right: 1%;
+  background: rgb(230, 229, 235);
+  color: rgb(26, 202, 202);
+  font-family: "Montserrat" sans-serif;
+  border-radius: 5px;
+}
+
+.contact-form {
+  background-color: #4dacc4;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+.whatsapp {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.whatsapp p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.whatsapp img {
+  width: 40px;
+  cursor: pointer;
+}
