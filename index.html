@@ -19,6 +19,7 @@
           <p class="p-1">Andres Esteban Cely Muñoz</p>
           <p class="p-2">Desarrollador de software</p>
           <p class="p-3">Bogotá, Colombia</p>
+          <button id="saludoBtn">Saludo</button>
         </div>
       </div>
     </header>
@@ -46,7 +47,9 @@
       <p class="infoinfoFecha">17 Abril 1994</p>
       <br />
 
-      <span><a href="URL_LINKEDIN" target="_blank">Perfil LinkedIn</a></span>
+      <span id="linkedinLink">
+        <a href="URL_LINKEDIN" target="_blank">Perfil LinkedIn</a>
+      </span>
     </section>
 
     <section class="info">
@@ -66,12 +69,31 @@
 
     <section class="info">
       <h2 class="tituloSeccion">Experiencia Laboral</h2>
-      <p class="tituloInfo">KloustrLabs:</p>
-      <p class="infoinfo">Desarrollador fullstack</p>
-      <br />
+      <ul id="experienceList">
+        <li>
+          <strong>KloustrLabs:</strong> Desarrollador fullstack
+          <br />
+          <span>Duración: 6 Meses</span>
+        </li>
+        <strong>KloustrLabs:</strong>
+        Desarrollador fullstack
+        <br />
+        <span>Duración: 6 Meses</span>
+      </ul>
+      <button id="addExperience">Añadir Experiencia</button>
+      <button id="verProyectosBtn">Ver Proyectos Anteriores</button>
+    </section>
 
-      <p class="infoCel">Duracion:</p>
-      <p class="infoinfoCel">6 Meses</p>
+    <section class="info">
+      <h2 class="tituloSeccion">Habilidades</h2>
+      <ul id="skillsList">
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>java</li>
+      </ul>
+      <button id="addSkill">Añadir Habilidad</button>
     </section>
 
     <section class="info">
@@ -84,8 +106,134 @@
       <p class="infoinfo">Bivel B2</p>
     </section>
 
+    <section class="info">
+      <h2 class="tituloSeccion">Certificaciones</h2>
+      <ul id="listaCertificaciones"></ul>
+    </section>
+    ...................................................................................................................
+    <section class="accordion-section">
+      <button class="accordion-title" onclick="toggleAccordion('infoPersonal')">
+        Información Personal
+      </button>
+      <div class="accordion-content" id="infoPersonal">
+        <h2 class="tituloSeccion">Informacion personal</h2>
+      <p class="tituloInfo"><strong>Nombre y Apellidos:</strong></p>
+      <p class="infoinfo">Esteban Cely </p>
+
+      <br />
+
+      <p class="tituloInfo"><strong>Telefono Celular:</strong></p>
+      <p class="infoinfoCel">+57 321 4362163</p>
+      <br />
+
+      <p class="tituloInfo"><strong>Direccion:</strong></p>
+      <p class="infoinfoDireccion">Carrera 60 3 3-55</p>
+      <br />
+
+      <p class="tituloInfo"><strong>Barrio:</strong></p>
+      <p class="infoinfoBarrio">Colon Orientar (Galan)</p>
+      <br />
+
+      <p class="tituloInfo"><strong>Fecha de nacimineto:</strong></p>
+      <p class="infoinfoFecha">17 Abril 1994</p>
+      <br />
+
+      <span id="linkedinLink">
+        <a href="URL_LINKEDIN" target="_blank">Perfil LinkedIn</a>
+      </span>
+      </div>
+    </section>
+
+    <section class="accordion-section">
+      <button
+        class="accordion-title"
+        onclick="toggleAccordion('fortalezasDebilidadesPasatiempos')"
+      >
+        Fortalezas, Debilidades y Pasatiempos
+      </button>
+      <div class="accordion-content" id="fortalezasDebilidadesPasatiempos">
+        <h2 class="tituloSeccion">Fortalezas, Debilidades y Pasatiempos</h2>
+      <p class="tituloInfo"><strong>Fortalezas:</strong></p>
+      <p class="infoinfo">Muchas</p>
+      <br />
+
+      <p class="tituloInfo"><strong>Debilidades:</strong></p>
+      <p class="infoinfo">Aún buscándolas</p>
+      <br />
+
+      <p class="tituloInfo"><strong>Pasatiempos:</strong></p>
+      <p class="infoinfo">Bolirana</p>
+      </div>
+    </section>
+
+    <section class="accordion-section">
+      <button class="accordion-title" onclick="toggleAccordion('expeLaboral')">
+        experiencia laboral
+      </button>
+      <div class="accordion-content" id="expeLaboral">
+        <h2 class="tituloSeccion">Experiencia Laboral</h2>
+        <ul id="experienceList">
+          <li>
+            <strong>KloustrLabs:</strong> Desarrollador fullstack
+            <br />
+            <span>Duración: 6 Meses</span>
+          </li>
+          <strong>KloustrLabs:</strong>
+          Desarrollador fullstack
+          <br />
+          <span>Duración: 6 Meses</span>
+        </ul>
+        <button id="addExperience">Añadir Experiencia</button>
+        <button id="verProyectosBtn">Ver Proyectos Anteriores</button>
+      </div>
+    </section>
+
+    <section class="accordion-section">
+      <button class="accordion-title" onclick="toggleAccordion('habilidades')">
+        Habilidades
+      </button>
+      <div class="accordion-content" id="habilidades">
+        <h2 class="tituloSeccion">Habilidades</h2>
+      <ul id="skillsList">
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>java</li>
+      </ul>
+      <button id="addSkill">Añadir Habilidad</button>
+      </div>
+    </section>
+    <section class="accordion-section">
+      <button class="accordion-title" onclick="toggleAccordion('idiomas')">
+        idiomas
+      </button>
+      <div class="accordion-content" id="idiomas">
+        <h2 class="tituloSeccion">Idiomas</h2>
+      <p class="tituloInfo">Principal:</p>
+      <p class="infoinfo">Español</p>
+      <br />
+
+      <p class="tituloInfo">Ingles:</p>
+      <p class="infoinfo">Bivel B2</p>
+      </div>
+    </section>
+    <section class="accordion-section">
+      <button
+        class="accordion-title"
+        onclick="toggleAccordion('certificaciones')"
+      >
+        certificaciones
+      </button>
+      <div class="accordion-content" id="certificaciones">
+        <h2 class="tituloSeccion">Certificaciones</h2>
+      <ul id="listaCertificaciones"></ul>
+      </div>
+    </section>
+
     <section class="contact-form">
       <h2>Contacto</h2>
+      <button id="calificacionBtn">Calificar Hoja de Vida</button>
       <form action="https://formspree.io/f/xgegwwzv" method="post">
         <label for="email">Email:</label>
         <input type="email" id="email" name="user_email" required />
@@ -102,7 +250,7 @@
         </a>
       </div>
     </section>
-    <script src="script.js"></script>
 
+    <script src="script.js"></script>
   </body>
 </html>

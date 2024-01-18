@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(9, 30, 32);
+  background-color: rgb(12, 90, 126);
 }
 
 .name {
@@ -204,4 +204,167 @@ input[type="submit"]:hover {
 .whatsapp img {
   width: 40px;
   cursor: pointer;
+}
+/* Estilos para los botones */
+button {
+  background-color: #3498db; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  padding: 10px 15px; /* Espaciado interno del botón */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  margin-right: 10px; /* Espacio entre botones (puedes ajustar según necesites) */
+}
+
+/* Cambiar color al pasar el mouse por encima del botón */
+button:hover {
+  background-color: #2980b9; /* Color de fondo al pasar el mouse */
+}
+
+/* Agregar márgenes a los botones para mayor espacio */
+#saludoBtn {
+  margin-bottom: 10px;
+}
+/* Estilos para el enlace de LinkedIn */
+#linkedinLink {
+  display: inline-block; /* Convertir el enlace en un bloque en línea */
+  background-color: rgb(52, 152, 219); /* Color de fondo del enlace */
+  color: #fff; /* Color del texto del enlace */
+  padding: 10px 15px; /* Espaciado interno del enlace */
+  text-decoration: none; /* Eliminar subrayado del enlace */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  margin-right: 10px; /* Espacio entre el enlace y otros elementos (puedes ajustar según necesites) */
+}
+
+/* Cambiar color al pasar el mouse por encima del enlace */
+#linkedinLink:hover {
+  background-color: #2980b9; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilos para la sección desplegable */
+.accordion-section {
+  border: 1px solid #1388cc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.accordion-title {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #12a1cc;
+  border: none;
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  text-align: left;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.accordion-content.active {
+  display: block;
+}
+
+.accordion-content span {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding-left: 1%;
+  padding-right: 1%;
+  background: rgb(202, 197, 231);
+  color: rgb(31, 172, 172);
+  font-family: "Montserrat" sans-serif;
+  border-radius: 5px;
+}
+
+/* Agrega bordes redondos a las secciones del acordeón */
+.accordion-section {
+  border: 1px solid #0f0bf3;
+  border-radius: 10px; /* Ajusta el valor según tus preferencias para bordes más o menos redondos */
+  margin-bottom: 10px;
+  overflow: hidden; /* Añade esto para asegurar que los bordes redondos sean visibles */
+  padding: 20px;
+  height: auto;
+}
+
+.accordion-title {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #379cb6c7;
+  border: none;
+  border-radius: 10px 10px 0 0; /* Ajusta según sea necesario */
+  width: 100%;
+  text-align: left;
+  height: 50px;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+  border-top: 1px solid #deee05;
+  border-radius: 0 0 10px 10px; /* Ajusta según sea necesario */
+}
+
+.accordion-content.active {
+  display: block;
+}
+
+.accordion-section .tituloSeccion {
+  color: aliceblue;
+  font-family: "Baloo Tamma2", sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bolder;
+}
+.accordion-section .tituloInfo {
+  color: aliceblue;
+  font-family: "Baloo Tamma2", sans-serif;
+  font-weight: bolder;
+  font-size: large;
+  display: inline;
+  margin-right: 20px;
+}
+
+.accordion-section .infoinfo {
+  color: rgb(16, 4, 70);
+  font-family: "Baloo Tamma2", sans-serif;
+  font-weight: normal;
+  font-size: large;
+  display: inline;
+}
+
+.accordion-section .infoinfoCel {
+  color: rgb(16, 4, 70);
+  font-family: "Baloo Tamma2", sans-serif;
+  font-weight: normal;
+  font-size: large;
+  display: inline;
+}
+
+.accordion-section .infoinfoDireccion {
+  color: rgb(16, 4, 70);
+  font-family: "Baloo Tamma2", sans-serif;
+  font-weight: normal;
+  font-size: large;
+  display: inline;
+}
+
+.accordion-section .infoinfoBarrio {
+  color: rgb(16, 4, 70);
+  font-family: "Baloo Tamma2", sans-serif;
+  font-weight: normal;
+  font-size: large;
+  display: inline;
+}
+
+.accordion-section .infoinfoFecha {
+  color: rgb(16, 4, 70);
+  font-family: "Baloo Tamma2", sans-serif;
+  font-weight: normal;
+  font-size: large;
+  display: inline;
 }
